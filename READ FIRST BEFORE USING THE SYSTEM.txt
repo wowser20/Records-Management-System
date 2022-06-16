@@ -1,0 +1,35 @@
+Records Management System
+- A system for storing and securing records from registration forms.
+------------------------------------------------------------------------------------------------------------------------------------  
+Note:
+- If the jar file won't run kindly start the apache and mysql on XAMPP control panel & import (studentinfo.sql) to phpmyadmin.
+- The SqLite database is in this folder named as ("StudentInfo.sqlite") & The mySql database ("studentinfo.sql")
+- You can use sqLite database just edit my sqliteconnection class according to (StudentInfo.sqLite) database file directory, and run my login class.
+- The JDBC, SqLite, and MySql jar file are in the resources folder.
+-----------------------------------------------------------------------------------------------------------------------------------
+LOGIN Details
+Username: admin
+Password: admin
+
+		------------------------------------------------------------------------------------
+		|Supported Functions: 4			                                           |
+  		|	                                                                           |								                                               |
+  		|-Login						                                   |                   |		          
+  		|-Store,update, & delete Records on SQL database	                           |
+  	        |-Search Data                                            			   |			   |
+  		|-Populate records to text boxes just by clicking the designated row on the table. |
+ 		------------------------------------------------------------------------------------
+  
+  		
+            	----------------------
+  	    	|Classes: 5	     |
+  	   	| -SqlConnection     |
+  	    	| -Login             |
+            	| -Mainmenu          |
+           	| -AddStudent        |
+            	| -AddTeacher        |
+            	----------------------
+
+
+
+"THANKS FOR USING MY PROGRAM!"
